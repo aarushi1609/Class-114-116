@@ -1,0 +1,32 @@
+body
+{
+    font-family: 'Shizuru', cursive;
+}
+
+h3
+{
+    font-size: 30px !important;
+}
+
+.btn-warning:hover
+{
+    background-color: lightblue;
+    font-size: 25px;
+    border: none;
+}
+
+canvas
+{
+    animation-name: animation1;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+    border-radius: 20px;
+}
+
+@keyframes animation1 
+{
+    0%{box-shadow: 1px 1px 60px pink}
+    25%{box-shadow: 1px 1px 60px lightcoral}
+    50%{box-shadow: 1px 1px 60px salmon}
+    100%{box-shadow: 1px 1px 60px palevioletred}
+}
